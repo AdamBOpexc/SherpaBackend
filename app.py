@@ -4,7 +4,7 @@ import time
 app = Flask(__name__)
 
 
-@app.route('/api/time')
+@app.route('/')
 def hello_world():
     return {'time': time.time()}
 
